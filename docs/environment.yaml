@@ -1,0 +1,11 @@
+name: docs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - sphinx==4.2.0
+  - pip
+  - myst-parser
+  - pyyaml
+  - pysimplegui==4.53
+  - send2trash==1.8
